@@ -62,7 +62,6 @@ class note_student(QWidget):
 
         self.editline_name=my_editline.make_EDITLINE(self,420,17,200,35,15)
 
-        #self.editline_class=my_editline.make_EDITLINE(self,100,17,200,35,15)
 
     def save_note(self):
         name_student=self.editline_name.get_txt_editline()

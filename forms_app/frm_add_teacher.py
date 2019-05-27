@@ -14,7 +14,6 @@ class add_student(QWidget):
     def __init__(self):
         super().__init__()
         self.labels()
-        #self.combo_Box()
         self.button()
         self.picture()
         self.line_edit()
@@ -50,8 +49,6 @@ class add_student(QWidget):
 
 
 
-    #def combo_Box(self):
-        #self.combo_student=Tools.make_COMBOBOX(self,225,30,250,30)
 
 
     def picture(self):
@@ -73,8 +70,6 @@ class add_student(QWidget):
 
         except Exception as ex:
             print(ex)
-           # QMessageBox.question(self, 'حدث خطا ما',
-            #                     'يرجى ادخال معلومات صحيحه', QMessageBox.Yes)
 
 
     def Close(self):

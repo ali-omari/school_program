@@ -70,7 +70,6 @@ class main_window(QWidget):
 
         ######    this buttons for setting    #######
 
-        #btn_signin=tool1.make_btn('تسجيل الدخول',self,420,120,150,50,14,'Purple')
 
         btn_add_password=tool1.make_btn('اضافة كلمة سر جديدة',self,420,185,150,50,14,'Purple',self.open_frm_signup)
         btn_log_out=tool1.make_btn('تسجيل خروج',self,420,250,150,50,14,'Purple',self.log_out)

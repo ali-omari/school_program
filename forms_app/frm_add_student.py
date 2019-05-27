@@ -41,7 +41,6 @@ class add_student(QWidget):
 
 
     def line_edit(self):
-        #self.line_class = Tools.make_EDITLINE(self, 225, 30, 250, 30, 14)
         self.line_name=Tools.make_EDITLINE(self,225,68,250,30,14)
         self.line_num = Tools.make_EDITLINE(self,225,110,250,30,14)
         self.line_born = Tools.make_EDITLINE(self,225,150,250,30,14)
@@ -73,8 +72,6 @@ class add_student(QWidget):
 
         except Exception as ex:
             print(ex)
-           # QMessageBox.question(self, 'حدث خطا ما',
-            #                     'يرجى ادخال معلومات صحيحه', QMessageBox.Yes)
 
 
     def Close(self):

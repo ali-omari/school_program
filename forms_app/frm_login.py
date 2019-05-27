@@ -67,21 +67,6 @@ class login_p(QWidget):
         except Exception as ex :
             print(ex)
 
-  #  def login_user(self):
-   #     try:
-    #        user1 = self.editline_user.get_txt_editline()
-     #       password1=self.editline_password.get_txt_editline()
-      #      ifd=my_database.check_user(user1,password1)
-       #     if ifd==1:
-        #    elif ifd==2:
-         #      QMessageBox.question(self, 'كلمة السر غير صحيحة',
-          #                                   'عذرا كلمة السر غير صحيحة يرجى اعادة المحاولة', QMessageBox.Yes)
-#
- #           else:
-  #             QMessageBox.question(self, 'اسم المستخدم وكلمة السر غير صحيحين',
-   #                                          'عذرا اسم المستخدم وكلمة السر غير صحيحين يرجى اعادة المحاولة', QMessageBox.Yes)
-    #    except Exception as ex:
-     #       print(ex)
 
 
     def button(self):

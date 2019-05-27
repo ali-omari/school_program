@@ -10,7 +10,7 @@ class tool():
         return
 
     def Defualt(self):
-        print('ali omari')
+        print('')
 
     def make_btn(self,name,window,x,y,h,w,fontsize,color='rgb(255, 255, 255)',Command=Defualt):
         btn=QPushButton(name,window)
@@ -63,13 +63,9 @@ class tool():
         msg.setText('{}'.format(text))
         msg.setStandardButtons(btn_message)
         msg.setStyleSheet('background-color:{}'.format(background))
-        #msg.setStyleSheet('color:{}'.format(font_color))
         msg.exec_()
 
 
-    def make_horizontal_line(self):
-        horz_line=QLine()
-        #horz_line.
 
 class make_EDITLINE():
     def __init__(self,window,x,y,h,w,fontsize,Enabled=True,settext='null'):
@@ -123,11 +119,6 @@ class make_tableWidget():
         self.table.setFont(QFont('Andalus', 15))
 
 
-       # self.table.setStyleSheet('background-color:white;'
-        #                                       'border-color: rgb(102, 252, 24);'
-        #                                      'color: white;')
-        #self.table.verticalHeader().setStyleSheet('background-color:white')
-        #self.table.horizontalHeader().setStyleSheet('background-color:rgb(102, 255, 153)')
 
         self.table.horizontalHeader().setDefaultSectionSize(172)
         self.table.verticalHeader().setDefaultSectionSize(50)
@@ -147,7 +138,6 @@ class make_tableWidget():
     def get_current_row(self):
         try:
             itemTableText = self.table.item(self.table.currentRow(), 0).text()
-            #print(itemTableText)
             return itemTableText
         except Exception as ex:
             return
